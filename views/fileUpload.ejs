@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include template/head %>
+    <title>Online Video Editor - Upload</title>
+  </head>
+  <header>
+    <% include template/header %>
+  </header>
+  <body>
+    <div class="container">
+      <h1>File Upload</h1>
+      <p>Select the file you want to upload. The file should be a video file. The supported formats are:
+        <br> - .mp4
+        <br> - .wmv
+        <br> - .avi
+       </p>
+      <form class="form-group" action="videoFileUpload" method="post" enctype="multipart/form-data">
+        <input type="file" class="form-control-file" name="videoFileToUpload"><br>
+        <input type="submit" class="btn btn-primary" value="Upload">
+      </form>
+    </div>
+    <% include template/scripts %>
+  </body>
+</html>

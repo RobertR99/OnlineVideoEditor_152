@@ -1,0 +1,14 @@
+{
+  "name": "152-VideoEditor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.12.3",
+    "formidable": "^1.2.1",
+    "ejs": "^2.3.1"
+  }
+}
